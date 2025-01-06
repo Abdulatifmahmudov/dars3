@@ -1,0 +1,51 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 0;
+    align-items:center;
+}
+.nav-components{
+    display: flex;
+}
+.home-contacts{
+    display: flex;
+    gap: 16px;
+    li a{
+        font-family: "Roboto";
+        font-size: 16px;
+        line-height: 24px;
+        color:var(--dark-color);
+    }
+}
+.nav-search{
+    display: flex;
+    gap: 3px;
+    align-items:center;
+    margin-left: 16px;
+    p{
+        font-family: "Roboto";
+        font-size: 16px;
+        line-height: 24px;
+        color:var(--dark-color);
+    }
+}
+.nav-btns{
+    display: flex;
+    gap: 16px;
+    margin-left: 8px;
+}
+.cart-btn{
+    background-color:#fff;
+    border: none;
+    border-radius: 6px;
+    padding: 9px 21px;
+    box-shadow: -1px -1px  10px rgb(219, 219, 219);
+
+}
+.property-btn{
+    border:none;
+    border-radius:6px;
+    padding: 9px 21px;
+    color:#fff;
+    background-color:#CF6F49;
+}

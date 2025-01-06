@@ -1,0 +1,194 @@
+@import "./basic.css";
+@import "./navbar.css";
+
+.nav-top{
+    display: flex;
+    background-color: #939878;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+     
+}
+.center-items{
+    display: flex;
+        justify-content: center;
+        padding: 10px 0;
+        color: #fff;
+        font-family: "Roboto";
+        font-size: 14px;
+        line-height: 21px;
+        flex-grow: 1;
+        text-align: center;
+}
+.i-x{
+    color:#fff;
+    margin-left: auto;
+    margin-right: 12px;
+}
+
+/* HEADER */
+
+header{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+.head-left{
+    width: 650px;
+    padding: 0 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+.head-right{
+    width: 50%;
+    img{
+        width: 100%;
+    }
+}
+.find-dream{
+    width: 171px;
+    background-color:#E7E8E3;
+    color:var(--dark-color);
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    padding: 4px 12px;
+    border-radius:32px;
+}
+.text-h{
+    color:var(--dark-color);
+    font-family: "Roboto";
+    font-size: 56px;
+    line-height: 67.2px;
+    font-weight: 400;
+
+}
+.lorem-p{
+    color:var(--grey-color);
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+}
+.search-property{
+    display: flex;
+    gap: 16px;
+}
+.input-search{
+    display: flex;
+    align-items:center;
+    gap: 3px;
+    padding-left: 12px;
+    box-shadow: -1px -1px  10px rgb(219, 219, 219);
+    input{
+        
+        border:none;
+        placeholder{
+            padding: 9px 192px 9px 56px;
+        }
+    }
+}
+
+/* HOW IT WORKS */
+
+.how-top{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 64px 0;
+    p{
+        font-family: "Roboto";
+        font-size: 18px;
+        line-height: 27px;
+        color:var(--dark-color);
+        width: 243px;
+    }
+}
+.partners{
+    display: flex;
+    gap: 32px;
+}
+
+.how-text{
+    margin-top: 40px;
+    text-align: center;
+    
+
+}
+.it-works{
+    font-family: "Roboto";
+    font-size: 48px;
+    line-height: 57px;
+    font-weight: 700;
+    color:var(--dark-color);
+}
+.lorem-how{
+    text-align: center;
+    font-family: "Roboto";
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 400;
+    color:var(--grey-color);
+    margin-top: 21px;
+}
+.how-cards{
+    display: flex;
+    padding: 64px 0;
+    justify-content: space-between;
+}
+.how-card{
+    width: 405px;
+    text-align: center;
+    padding: 47px 34px;
+    border:1px solid #E7E8E3;
+    border-radius:16px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.card-bold{
+    font-family: "Roboto";
+    font-size: 24px;
+    line-height: 33.6px;
+    font-weight: 700;
+}
+.lorem-card{
+    font-family: "Roboto";
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color:var(--grey-color);
+}
+
+/* THE BEST HOUSE */
+
+.best-house{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+.agent{
+    background-color:#fff;
+    color:var(--dark-color);
+}
+/* FAST PROCESS*/
+
+.fast{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.fast-cards{
+    display: flex;
+    margin-top: 36px;
+   
+}
+.fast-card{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
